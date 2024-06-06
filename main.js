@@ -1,6 +1,8 @@
 
 const choices = ["rock", "paper", "scissors"];
 
+document.getElementById("play-button").addEventListener("click", game);
+
 function game() {
     playRound();
 }
